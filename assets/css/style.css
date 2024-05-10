@@ -50,12 +50,21 @@ header a {
     display: none;
 }
 
+nav {
+    position: absolute;
+    display: none;
+    
+    width: 100%;
+}
+
 /* Main Content */
 main {
     background-color: #35CE8D;
     /* push down footer with main content */
     flex: 1 0 auto;
 }
+
+
 
 /* Footer */
 footer {
