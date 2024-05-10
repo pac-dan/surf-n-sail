@@ -1,3 +1,63 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Lato:wght@300&display=swap');
+
+/* Asterisk wildcard selector to override default styles added by the browser */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* General styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: #000000;
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    font-family: 'Exo', sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+
+/* Header */
+
 header {
-    background-color: aqua;
+    background-color: #01BAEF;
+    display: flex;
+    justify-content: baseline;
+}
+
+.nav-toggle-label {
+    display: flex;
+    align-self: flex-end;
+}
+
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+#nav-toggle {
+    display: none;
+}
+
+/* Main Content */
+main {
+    background-color: #35CE8D;
+    /* push down footer with main content */
+    flex: 1 0 auto;
+}
+
+/* Footer */
+footer {
+    background-color: #05299E;
 }
