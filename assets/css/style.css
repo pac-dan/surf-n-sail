@@ -23,6 +23,9 @@ h1 {
     font-weight: 900;
     font-style: italic;
     letter-spacing: 1px;
+    padding: 0.5rem;
+
+
 }
 
 
@@ -30,13 +33,39 @@ h1 {
 
 header {
     background-color: #01BAEF;
+    padding: 0;
     display: flex;
     justify-content: baseline;
+    border: #000000;
+    z-index: 99;
+    width: 100%;
+    justify-content: space-between;
 }
 
 .nav-toggle-label {
+    display: none;
+    position: absolute;
+    right: 0;
+}
+
+nav ul {
     display: flex;
-    align-self: flex-end;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    align-items: baseline;
+}
+
+
+
+.fa-bars {
+    font-size: 36px;
+    padding: 10px;
+    border: 5px solid #000000;
+    margin: 0 auto;
+    box-sizing: border-box;
+    width: fit-content;
+    border-radius: 15%;
 }
 
 
@@ -45,16 +74,24 @@ header a {
     color: inherit;
 }
 
+nav {
+    position: relative;
+    box-shadow: none;
+    width: fit-content;
+    padding-right: 1rem;
+}
+
+
+#nav-toggle:checked~nav {
+    display: block;
+}
 
 #nav-toggle {
     display: none;
 }
 
-nav {
-    position: absolute;
-    display: none;
-    
-    width: 100%;
+.nav-toggle-label {
+    font-size: 2rem;
 }
 
 /* Main Content */
