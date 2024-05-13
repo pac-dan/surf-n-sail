@@ -34,9 +34,12 @@ header {
 
 .logo {
     max-width: 200px;
+    position: absolute;
+    top: 2%;
+    transform: translateY(-50%);
 }
 .logo-container {
-    left: 0;
+    position: relative;
 }
 
 nav {
@@ -231,6 +234,9 @@ nav .fas {
     }
     .nav-links ul {
         padding: 30px;
+    }
+    .logo {
+        max-width: 150px;
     }
     #bars {
         padding-right: 5px;
