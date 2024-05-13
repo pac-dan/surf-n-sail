@@ -24,14 +24,15 @@
             <a href="index.html">
                 <img src="../../assets/images/logo.png" class="logo">
             </a>
-            <div class="nav-links">
-                <i class="fas fa-bars"></i>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-xmark" onclick="hideMenu()"></i>
                 <ul>
                     <li><a href="index.html">HOME</a></li>
                     <li><a href="locations.html">LOCATIONS</a></li>
                     <li><a href="booking.html">BOOK NOW</a></li>
                 </ul>
             </div>
+            <i class="fas fa-bars" onclick="showMenu()" id="bars"></i>
         </nav>
 
         <div class="text-box">
@@ -42,6 +43,8 @@
 
     </header>
 
+    <main>Main Content</main>
+
     <footer>footer</footer>
 
 
@@ -49,6 +52,21 @@
 
     <!--Fontawesome kit-->
     <script src="https://kit.fontawesome.com/3b20d96fa9.js" crossorigin="anonymous"></script>
+    <script>
+
+        var navLinks = document.getElementById("navLinks")
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+
+    </script>
+
+
 </body>
 
 </html>

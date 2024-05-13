@@ -115,12 +115,21 @@ nav {
     transition: 1s;
 }
 
+/* Main */
+main {
+    flex: 1 0 auto;
+}
+/* Footer */
+footer {
+    background-color: #000;
+}
+
 /* Hide toggle initially on larger screens */
-i.fas.fa-bars {
+nav .fas {
     display: none;
 }
 
-@media screen and (max-width: 700px) {
+@media(max-width: 700px) {
     .text-box h1 {
         font-size: 32px;
     }
@@ -130,5 +139,30 @@ i.fas.fa-bars {
         font-size: 15px;
         color: #000;
     }
-
+    .nav-links ul li {
+        display: block;
+    }
+    .nav-links {
+        position: absolute;
+        background: darkorange;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 2;
+    }
+    nav .fas {
+        display: block;
+        color: #fff;
+        font-size: 22px;
+        cursor: pointer;
+        padding: 2px;
+    }
+    .nav-links ul {
+        padding: 30px;
+    }
+    #bars {
+        padding-right: 5px;
+}
 }
