@@ -122,14 +122,16 @@ nav {
 
 /* Main */
 main {
+    background-color: whitesmoke;
     flex: 1 0 auto;
 }
 .locations {
-    width: 80%;
+    width: 100%;
     margin: auto;
     text-align: center;
     padding-top: 100px;
 }
+
 main h1 {
     font-size: 42px;
     font-weight: 900;
@@ -141,6 +143,21 @@ p {
     line-height: 22px;
     padding: 10px;
 }
+/* Style the locations boxes */
+#find-us {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#find-us .surf-spots {
+    flex: 1 1 calc(20% - 20px);
+    margin: 10px;
+    padding: 20px;
+    background-color: rgba(81, 50, 255, 0.2);
+    border-radius: 10px;
+    text-align: center;
+}
+
 
 /* Footer */
 footer {
@@ -174,6 +191,13 @@ nav .fas {
     display: none;
 }
 
+/* Hide the nav-links on larger screens */
+@media(min-width: 700px) {
+    .nav-links {
+        display: none; 
+    }
+}
+
 @media(max-width: 700px) {
     .text-box h1 {
         font-size: 32px;
@@ -188,7 +212,7 @@ nav .fas {
         display: block;
     }
     .nav-links {
-        position: absolute;
+        position: fixed;
         background: darkorange;
         height: 100vh;
         width: 200px;
@@ -196,7 +220,7 @@ nav .fas {
         right: -200px;
         text-align: left;
         z-index: 2;
-        transition: 1s;
+        transition-right: 1s;
     }
     nav .fas {
         display: block;

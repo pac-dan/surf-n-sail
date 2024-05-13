@@ -45,7 +45,7 @@
         <h1>Where to find us!</h1>
         <p>Find a beach close to you</p>
 
-        <div class="row">
+        <div id="find-us">
             <div class="surf-spots">
                 <h3>
                     Banna
@@ -100,10 +100,11 @@
     <script>
 
         var navLinks = document.getElementById("navLinks")
-
+        /* Change right property to 0 to show the menu */
         function showMenu() {
             navLinks.style.right = "0";
         }
+        /* Change right property to -200px to hide the menu */
         function hideMenu() {
             navLinks.style.right = "-200px";
         }
