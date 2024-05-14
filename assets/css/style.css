@@ -243,17 +243,20 @@ main h1 {
 /* Footer */
 footer {
     background-color: #fc0202;
-    padding: 20px;
-    text-align: center;
+    padding: 1rem 0;
 }
 /* Style for the list */
 footer ul {
     list-style-type: none;
     padding: 0;
+    display: flex;
+    justify-content: center;
+    
 }
 footer li {
-    display: inline-block;
     margin: 0 10px;
+    flex-grow: 1;
+    text-align: center;
 }
 footer a {
     display: inline-block;
