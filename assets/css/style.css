@@ -34,8 +34,8 @@ header {
 
 .logo {
     max-width: 200px;
-    position: absolute;
-    top: 10px;
+    position: fixed;
+    padding: 2% 2%;
     transform: translateY(-50%);
 }
 .logo-container {
@@ -45,10 +45,10 @@ header {
 nav {
     position: absolute;
     display: flex;
-    padding: 1%;
+    padding-top: 2%;
     justify-content: space-between;
     align-items: center;
-    width: 99%;
+    width: 100%;
 }
 
 .nav-links {
@@ -194,13 +194,10 @@ nav .fas {
     display: none;
 }
 
-/* Hide the nav-links on larger screens
-@media(min-width: 700px) {
-    .nav-links {
-        display: ; 
-    } 
-}
-*/
+
+
+   
+
 @media(max-width: 700px) {
     .text-box h1 {
         font-size: 42px;
@@ -223,7 +220,7 @@ nav .fas {
         right: -200px;
         text-align: left;
         z-index: 2;
-        transition-right: 1s;
+        transition: 1s;
     }
     nav .fas {
         display: block;
@@ -239,6 +236,6 @@ nav .fas {
         max-width: 150px;
     }
     #bars {
-        padding-right: 5px;
-}
+        padding-right: 3%;
+    }
 }
