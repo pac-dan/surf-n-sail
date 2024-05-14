@@ -35,7 +35,7 @@ header {
 .logo {
     max-width: 200px;
     position: absolute;
-    top: 2%;
+    top: 10px;
     transform: translateY(-50%);
 }
 .logo-container {
@@ -194,16 +194,16 @@ nav .fas {
     display: none;
 }
 
-/* Hide the nav-links on larger screens */
+/* Hide the nav-links on larger screens
 @media(min-width: 700px) {
     .nav-links {
-        display: none; 
-    }
+        display: ; 
+    } 
 }
-
+*/
 @media(max-width: 700px) {
     .text-box h1 {
-        font-size: 32px;
+        font-size: 42px;
     }
 
     .text-box p {
