@@ -20,7 +20,7 @@ h1 {
     font-weight: 500;
 }
 
-p {
+h3, p {
     font-family: 'Lato', sans-serif;
     font-style: italic;
     font-weight: bolder;
@@ -126,11 +126,29 @@ main {
     background-color: whitesmoke;
     flex: 1 0 auto;
 }
+main h1 {
+    text-align: center;
+    padding-top: 1rem;
+    text-decoration: wavy;
+}
 .locations {
     width: 100%;
     margin: auto;
     text-align: center;
     padding-top: 100px;
+}
+
+.location-link::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background-color: #000;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.location-link:hover::after {
+    width: 50%;
 }
 
 main h1 {
@@ -161,6 +179,50 @@ p {
 
 .surf-spots {
     height: 20rem;
+}
+.surf-spots a {
+    text-decoration: none;
+    color: #000;
+
+}
+/* Courses */
+main h1 {
+    text-align: center;
+}
+.courses{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px 0;
+}
+
+.courses div {
+    width: 100%;
+}
+
+.rent {
+    text-align: left;
+}
+
+.less {
+    text-align: right;
+}
+
+
+
+#rentals{
+    order: -1;
+    padding-left: 2%;
+}
+ 
+#lessons {
+    margin-left: auto;
+    padding-right: 2%;
+}
+/* Make 2/4 courses show up on right of screen */
+#right {
+    display: flex;
 }
 /* Where to find us images */
 #banna-home {
@@ -257,3 +319,4 @@ nav .fas {
         padding-right: 3%;
     }
 }
+
