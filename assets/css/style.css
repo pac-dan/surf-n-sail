@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Lato:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 /* Wildcard selector to override basic html styles */
 * {
     margin: 0;
@@ -15,7 +15,9 @@ body {
 }
 
 h1 {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Exo+2', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 500;
 }
 
 p {
@@ -95,10 +97,6 @@ nav {
     text-align: center;
 }
 
-.text-box h1 {
-    font-size: 62px;
-}
-
 .text-box p {
     margin: 10px 0 40px;
     font-size: 20px;
@@ -136,12 +134,12 @@ main {
 }
 
 main h1 {
-    font-size: 42px;
-    font-weight: 900;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 700;
 }
 p {
     color: #000;
-    font-size: 14px;
+    font-size: 1rem;
     font-weight: 300;
     line-height: 22px;
     padding: 10px;
@@ -161,6 +159,25 @@ p {
     text-align: center;
 }
 
+.surf-spots {
+    height: 20rem;
+}
+/* Where to find us images */
+#banna-home {
+    background: url(../../assets/images/banna-home.webp) no-repeat center center/cover;
+}
+
+#inch-home {
+    background: url(../../assets/images/inch-home.webp) no-repeat center center/cover;
+}
+
+#castle-home {
+    background: url(../../assets/images/castle-home.webp) no-repeat center center/cover;
+}
+
+#brandon-home {
+    background: url(../../assets/images/brandon-bay-home.jpeg) no-repeat center center/cover;
+}
 
 /* Footer */
 footer {
@@ -194,18 +211,19 @@ nav .fas {
     display: none;
 }
 
-
-
-   
-
 @media(max-width: 700px) {
-    .text-box h1 {
-        font-size: 42px;
+
+
+    h1 {
+        font-family: 'Exo+2', sans-serif;
+        font-size: 2rem;
+        font-weight: 500;
     }
 
     .text-box p {
         margin: 10px 0 40px;
-        font-size: 15px;
+        font-size: 1rem;
+        font-weight: bold;
         color: #000;
     }
     .nav-links ul li {
