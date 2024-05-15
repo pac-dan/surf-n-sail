@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Meta tags for search engines -->
+    <meta name="description"
+        content="Surf and Sail. Surf Club in Kerry, Ireland. Surfing. Kitesurfing. Banna beach. Inch beach">
+    <meta name="keywords"
+        content="surf, surfing, Surfboards, Surfing lessons, Surf spots, Surf gear, Surfing tips, Surfing equipment, Surfing techniques, Surfing destinations, Surfing competitions, Surfing lifestyle, Kitesurfing lessons, Kitesurfing gear, Kitesurfing spots, Kitesurfing equipment, Kitesurfing techniques, Kitesurfing destinations, Kitesurfing schools, Kitesurfing safety, Kitesurfing events, Kitesurfing community.">
+    <!-- Title -->
+    <title>Surf N' Sail</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/favicon/surfnsail-icon.ico" type="image/x-icon">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header class="sub-header-booking">
+        <!-- Navigation -->
+        <nav>
+            <!-- Logo -->
+            <a href="index.html" class="logo-container">
+                <img src="../assets/images/logo-no-background.png" class="logo">
+            </a>
+            <!-- Navigation Links -->
+            <div class="booking-nav-links" id="navLinks">
+                <i class="fas fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="locations.html">LOCATIONS</a></li>
+                    <li><a href="booking.html">BOOK NOW</a></li>
+                </ul>
+            </div>
+            <!-- Menu Icon -->
+            <i class="fas fa-bars" onclick="showMenu()" id="bars"></i>
+        </nav>
+
+        <!-- Hero Text -->
+        <div class="sub-text-box-booking">
+            <h1>BOOK HERE</h1>
+            <p><strong>WE PROVIDE ALL THE EQUIPMENT YOU NEED!</strong></p>
+        </div>
+    </header class="sub-header">
+
+    <!-- Main Content Section -->
+    <main>
+        <form class="booking-form">
+
+        </form>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <!-- Social Media Links -->
+        <ul>
+            <li><a href="https://www.facebook.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Facebook page(opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li><a href="https://www.instagram.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Instagram page(opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+            <li><a href="https://www.tiktok.com" target="_blank" rel="noopener"
+                    aria-label="Visit our TikTok page(opens in a new tab)"><i class="fa-brands fa-tiktok"></i></a></li>
+            <li><a href="https://www.snapchat.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Snapchat page(opens in a new tab)"><i class="fa-brands fa-snapchat"></i></a>
+            </li>
+            <li><a href="https://twitter.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Twitter page(opens in a new tab)"><i class="fa-brands fa-x-twitter"></i></a>
+            </li>
+        </ul>
+    </footer>
+
+    <!--Fontawesome kit-->
+    <script src="https://kit.fontawesome.com/3b20d96fa9.js" crossorigin="anonymous"></script>
+
+    <!-- JavaScript for Menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks")
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
