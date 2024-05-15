@@ -237,7 +237,7 @@ main h1 {
 }
 
 #brandon-home {
-    background: url(../../assets/images/brandon-bay-home.jpeg) no-repeat center center/cover;
+    background: url(../../assets/images/brandon-home.jpeg) no-repeat center center/cover;
 }
 
 /* Footer */
@@ -256,18 +256,18 @@ footer ul {
 footer li {
     margin: 0 10px;
     flex-grow: 1;
-    text-align: center
-    -+;
-}8
+    text-align: center;
+
+    
+}
 footer a {
     display: inline-block;
     padding: 10px;
-    background-color: #000;
-    border-radius: 50%;
+    
 }
 footer a i {
     color: #fff;
-    font-size: 20px;
+    font-size: 2rem;
 }
 
 
