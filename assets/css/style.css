@@ -34,6 +34,12 @@ h3, p {
     background: url(../../assets/images/home-page.jpeg) no-repeat center center/cover;
 }
 
+.sub-header {
+    position: relative;
+    min-height: 50vh;
+    background: url(../../assets/images/sub-header.jpeg) no-repeat center center/cover;
+}
+
 .logo {
     max-width: 200px;
     position: fixed;
