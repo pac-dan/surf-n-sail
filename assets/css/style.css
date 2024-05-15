@@ -27,7 +27,7 @@ h3, p {
 }
 
 /* Header */
-header {
+.main-header {
     position: relative;
     min-height: 100vh;
     width: 100%;
@@ -121,6 +121,12 @@ nav {
     transition: 1s;
 }
 
+/* Sub-header */
+
+sub-header {
+
+}
+
 /* Main */
 main {
     background-color: whitesmoke;
@@ -202,10 +208,12 @@ main h1 {
 
 .rent {
     text-align: left;
+    padding-top: 2rem;
 }
 
 .less {
     text-align: right;
+    padding-top: 2rem;
 }
 
 
@@ -216,6 +224,7 @@ main h1 {
 }
  
 #lessons {
+    padding-top: 3rem;
     margin-left: auto;
     padding-right: 2%;
 }
