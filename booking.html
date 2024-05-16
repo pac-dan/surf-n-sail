@@ -19,7 +19,7 @@
 
 <body>
     <!-- Header Section -->
-    <header class="sub-header-booking">
+    <header class="booking-header">
         <!-- Navigation -->
         <nav>
             <!-- Logo -->
@@ -38,19 +38,59 @@
             <!-- Menu Icon -->
             <i class="fas fa-bars" onclick="showMenu()" id="bars"></i>
         </nav>
-
-        <!-- Hero Text -->
-        <div class="sub-text-box-booking">
+        <div class="booking-text-box">
             <h1>BOOK HERE</h1>
-            <p><strong></strong></p>
         </div>
-    </header class="sub-header">
+        <section class="form">
+
+            <form id="booking-form" method="get" action="confirmation.html">
+                <label for="first-name">First Name</label>
+                <br>
+                <input type="text" name="first_name" id="first-name" class="text-input" required>
+                <br>
+                <label for="last-name">Last Name</label>
+                <br>
+                <input type="text" name="last_name" id="last-name" class="text-input" required>
+                <br>
+                <label for="email-address">Email Address</label>
+                <br>
+                <input type="email" name="email_address" id="email-address" class="text-input" required>
+                <br>
+                <label for="age">Age</label>
+                <br>
+                <input type="number" name="age" id="age" min="5" max="100" value="1" required>
+                <br>
+                <label for="surf-level">Surf Level</label>
+                <br>
+                <input type="text" name="surf-level" id="surf-level" class="text-input" optional>
+                <br>
+                <label for="health">Medical Info (If Any)</label>
+                <br>
+                <input type="text" name="health" id="health" class="text-input" optional>
+                <br>
+                <div class="radio-buttons">
+                    <div>
+                        <label for="private">Private Lesson</label>
+                        <input type="radio" name="lesson" id="private" value="private" required checked>
+                    </div>
+                    <div>
+                        <label for="group">Group Lesson</label>
+                        <input type="radio" name="lesson" id="group" value="group" required>
+                    </div>
+                    <div>
+                        <label for="camp">Summer camp</label>
+                        <input type="radio" name="lesson" id="camp" value="camp" required checked>
+                    </div>
+
+                </div>
+                <button type="submit" class="join-button">See you in the barrel</button>
+            </form>
+        </section>
+    </header>
 
     <!-- Main Content Section -->
     <main>
-        <form class="booking-form">
 
-        </form>
     </main>
 
     <!-- Footer Section -->

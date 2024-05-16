@@ -15,6 +15,9 @@ body {
 }
 
 h1 {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
     font-family: 'Exo+2', sans-serif;
     font-size: 3.5rem;
     font-weight: 500;
@@ -119,76 +122,6 @@ nav {
 }
 
 .hero-btn:hover {
-    border: 1px solid #000;
-    color: #000;
-    background: #fff;
-    transition: 1s;
-}
-
-/* Sub-header */
-
-.sub-header {
-    position: relative;
-    min-height: 50vh;
-    background: url(../../assets/images/sub-header.jpeg) no-repeat center center/cover;
-}
-
-.sub-text-box {
-    width: 90%;
-    color: black;
-    position: absolute;
-    top: 75%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
-
-.sub-nav-links {
-    flex: 1;
-    text-align: right;
-}
-
-.sub-nav-links ul li {
-    list-style: none;
-    display: inline-block;
-    padding: 8px 12px;
-    position: relative;
-}
-
-.sub-nav-links ul li a {
-    color: #000;
-    text-decoration: none;
-    font-size: 13px;
-    font-family: 'Lato', sans-serif;
-    font-weight: bold;
-}
-
-.sub-nav-links ul li::after {
-    content: '';
-    width: 0%;
-    height: 2px;
-    background-color: darkorange;
-    display: block;
-    margin: auto;
-    transition: 0.5s;
-}
-
-.sub-nav-links ul li:hover::after {
-    width: 100%;
-}
-
-.sub-hero-btn {
-    display: inline-block;
-    text-decoration: none;
-    color: #000;
-    border: 2px solid #000;
-    border-radius: 20px;
-    padding: 12px 34px;
-    background: rgba(255, 0, 0, 0.5);
-    cursor: pointer;
-}
-
-.sub-hero-btn:hover {
     border: 1px solid #000;
     color: #000;
     background: #fff;
@@ -428,17 +361,60 @@ main h1 {
 
 /* Booking page */
 
-.sub-text-box-booking {
+.booking-text-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 90%;
     color: #fff;
     position: absolute;
-    top: 25%;
+    top: 10%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
+    transform: translateX(-50%);
 }
 
-.sub-header-booking {
+#booking-form {
+    flex-grow: 1;
+    padding: 1rem .5rem;
+    color: #fff;
+    border: 2px solid darkorange;
+    background: rgba(0, 0, 0, .7);
+}
+
+.form {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: calc(5% + 100px); 
+    left: .6rem; 
+    width: 50%; 
+    
+}
+
+.text-input {
+    margin-bottom: .2em;
+    width: 10rem;
+    flex-grow: 1;
+    padding: 0.25em;
+}
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 10px 21px;
+    font-size: 100%;
+    background-color: darkorange;
+    color: #000;
+}
+
+#booking-form>.radio-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.booking-header {
     position: relative;
     min-height: 100vh;
     width: 100%;
@@ -535,7 +511,9 @@ nav .fas {
         color: #000;
     }
 
-    /* Home Page navlinks */
+    /* Home media Qs */ 
+
+    /*navlinks */
     .nav-links ul li {
         display: block;
     }
@@ -569,6 +547,8 @@ nav .fas {
     #bars {
         padding-right: 3%;
     }
+    /* Locations media Qs */
+
     /* Sub nav links */
     .sub-nav-links ul li {
         display: block;
@@ -594,6 +574,8 @@ nav .fas {
     .sub-nav-links ul {
         padding: 30px;
     }
+
+    /* Booking media Qs */
     /* Booking nav links */
     .booking-nav-links ul li {
         display: block;
