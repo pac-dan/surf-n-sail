@@ -112,6 +112,7 @@ nav {
     margin: 10px 0 40px;
     font-size: 1.5rem;
     color: #000;
+    font-family: 'Oswald', sans-serif;
 }
 
 .hero-btn {
@@ -177,7 +178,7 @@ p {
 #find-us {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 #find-us .surf-spots {
     flex: 1 1 calc(20% - 20px);
@@ -504,6 +505,20 @@ footer a i {
 nav .fas {
     display: none;
 }
+
+
+/*
+@media(max-width: 805px) {
+
+    div #find-us {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        column-count: 2;
+    }
+}
+*/
+
 
 @media(max-width: 768px) {
 
