@@ -9,16 +9,13 @@
     font-family: 'Poetsen One', sans-serif;
 }
 
-p {
-    font-family: 'Oswald', sans-serif;
-}
-
 /* General Styles */
 body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
+
 
 
 h1 {
@@ -174,6 +171,7 @@ p {
     font-weight: 300;
     line-height: 22px;
     padding: 10px;
+    font-family: "Bebas Neue", sans-serif;
 }
 /* Style the locations boxes */
 #find-us {
@@ -294,7 +292,7 @@ main h1 {
 .sub-nav-links ul li a {
     color: #000;
     text-decoration: none;
-    font-size: 13px;
+    font-size: 1em;
     font-family: 'Lato', sans-serif;
     font-weight: bold;
 }
@@ -449,7 +447,7 @@ form label {
 .booking-nav-links ul li a {
     color: #fff;
     text-decoration: none;
-    font-size: 13px;
+    font-size: 1em;
     font-family: 'Lato', sans-serif;
     font-weight: bold;
     
@@ -522,6 +520,7 @@ nav .fas {
         font-size: 1rem;
         font-weight: bold;
         color: #000;
+        font-family: "Bebas Neue", sans-serif;
     }
 
     /* Home media Qs */ 
@@ -559,17 +558,17 @@ nav .fas {
     #bars-1 {
         display: block;
         color: #000;
-        font-size: 22px;
+        font-size: 2em;
         cursor: pointer;
-        padding: 2px;
+        padding: 0.5em 0.5em;
     }
 
     #bars-2 {
         display: block;
         color: #fff;
-        font-size: 22px;
+        font-size: 2em;
         cursor: pointer;
-        padding: 2px;
+        padding: 0.5em 0.5em;
     }
 
     .nav-links ul {
@@ -578,7 +577,8 @@ nav .fas {
 
     /* Logo  */
     .logo {
-        max-width: 150px;
+        max-width: 180px;
+        height: 1.5rem;
     }
     #bars {
         
@@ -604,14 +604,7 @@ nav .fas {
         z-index: 2;
         transition: 1s;
     }
-    .sub-nav-links>#bars-1,
-    #bars-2 {
-        display: block;
-        color: #000;
-        font-size: 22px;
-        cursor: pointer;
-        padding: 2px;
-    }
+
     .sub-nav-links ul {
         padding: 30px;
     }
@@ -632,14 +625,7 @@ nav .fas {
         z-index: 2;
         transition: 1s;
     }
-    .booking-nav-links>#bars-1,
-    #bars-2 {
-        display: block;
-        color: #fff;
-        font-size: 22px;
-        cursor: pointer;
-        padding: 2px;
-    }
+
     .booking-nav-links ul {
         padding: 30px;
     }
