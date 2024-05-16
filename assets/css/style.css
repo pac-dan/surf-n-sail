@@ -1,11 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Lato:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 /* Wildcard selector to override basic html styles */
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Poetsen One', sans-serif;
+}
+
+p {
+    font-family: 'Oswald', sans-serif;
 }
 
 /* General Styles */
@@ -14,6 +19,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
 }
+
 
 h1 {
     display: flex;
@@ -24,10 +30,14 @@ h1 {
     font-weight: 700;
 }
 
-h3, p {
+h3 {
     font-family: 'Lato', sans-serif;
     font-style: italic;
     font-weight: bolder;
+}
+
+p {
+    font-family: 'Oswald', sans-serif;
 }
 
 /* Header */
@@ -42,20 +52,16 @@ h3, p {
 
 .logo {
     max-width: 200px;
-    position: fixed;
+    position: absolute;
     padding: 2% 2%;
     transform: translateY(-50%);
 }
 
-
-.logo-container {
-    position: relative;
-}
 /* Navbar */
 nav {
     position: absolute;
     display: flex;
-    padding-top: 2%;
+    padding-top: 1%;
     justify-content: space-between;
     align-items: center;
     width: 100%;
@@ -114,17 +120,17 @@ nav {
 .hero-btn {
     display: inline-block;
     text-decoration: none;
-    color: #000;
+    color: #fff;
     border: 2px solid #000;
     border-radius: 20px;
     padding: 12px 34px;
-    background: rgba(255, 0, 0, 0.5);
+    background: rgb(0, 13, 255);
     cursor: pointer;
 }
 
 .hero-btn:hover {
-    border: 1px solid #000;
-    color: #000;
+    border: 2px solid #000;
+    color:  rgb(0, 13, 255);
     background: #fff;
     transition: 1s;
 }
@@ -258,7 +264,7 @@ main h1 {
 .sub-header {
     position: relative;
     min-height: 50vh;
-    background: url(../../assets/images/sub-header.jpeg) no-repeat center center/cover;
+    background: url(../../assets/images/sub-header2.jpg) no-repeat center center/cover;
 }
 
 .sub-text-box {
@@ -269,6 +275,8 @@ main h1 {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
 }
 
 .sub-nav-links {
@@ -303,17 +311,6 @@ main h1 {
 
 .sub-nav-links ul li:hover::after {
     width: 100%;
-}
-
-.sub-hero-btn {
-    display: inline-block;
-    text-decoration: none;
-    color: #000;
-    border: 2px solid #000;
-    border-radius: 20px;
-    padding: 12px 34px;
-    background: rgba(255, 0, 0, 0.5);
-    cursor: pointer;
 }
 
 .sub-hero-btn:hover {
@@ -388,8 +385,11 @@ main h1 {
     align-items: center;
     top: calc(5% + 100px); 
     left: .6rem; 
-    width: 50%; 
-    
+    width: 60%; 
+}
+
+form label {
+    font-family: 'Oswald', sans-serif;
 }
 
 .text-input {
@@ -400,12 +400,23 @@ main h1 {
 }
 
 .join-button {
-    margin-top: 20px;
-    border-radius: 10px;
-    padding: 10px 21px;
-    font-size: 100%;
-    background-color: darkorange;
-    color: #000;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1em;
+    font-family: 'Poetsen One', sans-serif;
+    color: #fff;
+    border: 2px solid #000;
+    border-radius: 20px;
+    padding: 12px 34px;
+    background: rgb(0, 13, 255);
+    cursor: pointer;
+}
+
+.join-button:hover {
+    border: 2px solid #000;
+    color:  rgb(0, 13, 255);
+    background: #fff;
+    transition: 1s;
 }
 
 #booking-form>.radio-buttons {
@@ -497,12 +508,13 @@ nav .fas {
 
 @media(max-width: 768px) {
 
-
+    body {
+        width: 100%;
+    }
     h1 {
         font-family: 'Poetsen One', sans-serif;
         font-size: 2.5rem;
         font-weight: 500;
-        letter-spacing: ;
     }
 
     .text-box p {
@@ -519,6 +531,20 @@ nav .fas {
         display: block;
     }
 
+    #x-1 {
+        color: #000;
+        display: block;
+        font-size: 32px;
+        cursor: pointer;
+    }
+
+    #x-2 {
+        color: #fff;
+        display: block;
+        font-size: 32px;
+        cursor: pointer;
+    }
+
     .nav-links {
         position: fixed;
         background: darkorange;
@@ -530,13 +556,22 @@ nav .fas {
         z-index: 2;
         transition: 1s;
     }
-    nav .fas {
+    #bars-1 {
+        display: block;
+        color: #000;
+        font-size: 22px;
+        cursor: pointer;
+        padding: 2px;
+    }
+
+    #bars-2 {
         display: block;
         color: #fff;
         font-size: 22px;
         cursor: pointer;
         padding: 2px;
     }
+
     .nav-links ul {
         padding: 30px;
     }
@@ -546,7 +581,11 @@ nav .fas {
         max-width: 150px;
     }
     #bars {
-        padding-right: 3%;
+        
+        padding: 3% 3%;
+        position: fixed;
+        right: 0;
+        
     }
     /* Locations media Qs */
 
@@ -565,9 +604,10 @@ nav .fas {
         z-index: 2;
         transition: 1s;
     }
-    .sub-nav-links>.fas {
+    .sub-nav-links>#bars-1,
+    #bars-2 {
         display: block;
-        color: #fff;
+        color: #000;
         font-size: 22px;
         cursor: pointer;
         padding: 2px;
@@ -592,7 +632,8 @@ nav .fas {
         z-index: 2;
         transition: 1s;
     }
-    .booking-nav-links>.fas {
+    .booking-nav-links>#bars-1,
+    #bars-2 {
         display: block;
         color: #fff;
         font-size: 22px;
