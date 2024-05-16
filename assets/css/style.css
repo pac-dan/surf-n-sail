@@ -43,6 +43,7 @@ h3, p {
     transform: translateY(-50%);
 }
 
+
 .logo-container {
     position: relative;
 }
@@ -431,7 +432,7 @@ main h1 {
     width: 90%;
     color: #fff;
     position: absolute;
-    top: 15%;
+    top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -463,6 +464,7 @@ main h1 {
     font-size: 13px;
     font-family: 'Lato', sans-serif;
     font-weight: bold;
+    
 }
 
 .booking-nav-links ul li::after {
