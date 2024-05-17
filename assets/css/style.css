@@ -136,7 +136,7 @@ nav {
     border: 2px solid #000;
     color:  rgb(0, 13, 255);
     background: #fff;
-    transition: 1s;
+    transition: 0.5s;
 }
 
 /* Main */
@@ -186,6 +186,18 @@ p {
     font-family: "Bebas Neue", sans-serif;
 }
 
+#box-style {
+    background: #00b4d8;
+    border: darkorange;
+    border-radius: 21px;
+    padding: 1em;
+    max-width: fit-content;
+    margin: 1em 0;
+    width: 100%;
+}
+
+
+
 /* Style the locations boxes */
 
 #find-us {
@@ -226,32 +238,29 @@ main h1 {
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-    background: #d6ccc2;
 }
 
 .courses div {
     width: 100%;
 }
 
-.rent {
+.less {
     text-align: left;
     padding-top: 1em;
 }
 
-.less {
+.rent {
     text-align: right;
     padding-top: 2rem;
 }
 
-#rentals{
+#lessons {
     order: -1;
-    padding-left: 2%;
+    padding-right: 4%;
 }
  
-#lessons {
-    padding-top: 3rem;
-    margin-left: auto;
-    padding-right: 2%;
+#rentals {
+    padding-left: 4%;
 }
 
 
@@ -354,7 +363,6 @@ main h1 {
     text-align: right;
     padding-top: 2rem;
 }
-
 .right {
     text-align: left;
     padding-top: 2rem;
@@ -634,11 +642,29 @@ nav .fas {
         right: -200px;
         text-align: left;
         z-index: 999;
-        transition: 1.5s;
+        transition: 0.5s;
     }
 
     .sub-nav-links ul {
         padding: 30px;
+    }
+
+    /* Beaches */
+
+    .color-box-1 {
+        background: rgba(0, 254, 34, 0.686);
+        border-radius: 20px;
+        box-shadow: -10px 10px 20px rgba(0, 0, 0, 0.3);
+        padding: 0.8em;
+        margin: 1em 0;
+    }
+
+    .color-box-2 {
+        background: rgba(0, 254, 34, 0.686);
+        border-radius: 20px;
+        box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+        padding: 0.8em;
+        margin: 1em 0;
     }
 
     /* Booking media Qs */
@@ -658,7 +684,7 @@ nav .fas {
         right: -200px;
         text-align: left;
         z-index: 999;
-        transition: 1s;
+        transition: 0.5s;
     }
 
     .booking-nav-links ul {
