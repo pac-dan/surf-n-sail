@@ -67,12 +67,13 @@ h3 {
 /* Navbar */
 
 nav {
-    position: absolute;
+    position: fixed;
     display: flex;
     padding-top: 1%;
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    z-index: 999;
 }
 
 .nav-links {
@@ -577,17 +578,6 @@ nav .fas {
         cursor: pointer;
     }
 
-    .nav-links {
-        position: fixed;
-        background: darkorange;
-        height: 100%;
-        width: 200px;
-        top: 0;
-        right: -200px;
-        text-align: left;
-        z-index: 2;
-        transition: .5s;
-    }
     #bars-1 {
         display: block;
         color: #000;
@@ -618,8 +608,7 @@ nav .fas {
         
         padding: 3% 3%;
         position: fixed;
-        right: 0;
-        
+        right: 0; 
     }
 
     /* Locations media Qs */
@@ -638,7 +627,7 @@ nav .fas {
         top: 0;
         right: -200px;
         text-align: left;
-        z-index: 2;
+        z-index: 999;
         transition: 1.5s;
     }
 
@@ -662,7 +651,7 @@ nav .fas {
         top: 0;
         right: -200px;
         text-align: left;
-        z-index: 2;
+        z-index: 999;
         transition: 1s;
     }
 
