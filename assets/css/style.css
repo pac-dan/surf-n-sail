@@ -8,7 +8,9 @@
 * {
     margin: 0;
     padding: 0;
+    /*
     font-family: 'Poetsen One', sans-serif;
+    */
 }
 
 /* General Styles */
@@ -34,9 +36,6 @@ h3 {
     font-weight: bolder;
 }
 
-p {
-    font-family: 'Oswald', sans-serif;
-}
 .sub-nav-links ul li.active a {
     background: rgba(107, 98, 95, 0.452);
     border-radius: 20px;
@@ -104,13 +103,14 @@ nav {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    font-family: 'Poetsen One', sans-serif;
 }
 
 .text-box p {
     margin: 10px 0 40px;
     font-size: 1.5rem;
     color: #000;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
 }
 
 .hero-btn {
@@ -122,6 +122,7 @@ nav {
     padding: 12px 34px;
     background: rgb(0, 13, 255);
     cursor: pointer;
+    font-family: 'Poetsen One', sans-serif;
 }
 
 .hero-btn:hover {
@@ -171,7 +172,7 @@ main h1 {
 
 p {
     color: #000;
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 300;
     line-height: 22px;
     padding: 10px;
@@ -467,7 +468,7 @@ form .radio-buttons {
 .booking-nav-links ul li {
     list-style: none;
     display: inline-block;
-    padding: 8px 12px;
+    padding: 8px 5px;
     position: relative;
 }
 
@@ -535,19 +536,6 @@ nav .fas {
     display: none;
 }
 
-/*
-@media(max-width: 805px) {
-
-    div #find-us {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        column-count: 2;
-    }
-}
-*/
-
-
 @media(max-width: 768px) {
 
     body {
@@ -570,6 +558,7 @@ nav .fas {
     /* Home media Qs */ 
 
     /*navlinks */
+
     .nav-links ul li {
         display: block;
     }
@@ -620,6 +609,7 @@ nav .fas {
     }
 
     /* Logo  */
+
     .logo {
         max-width: 180px;
         height: 1.5rem;
@@ -631,12 +621,15 @@ nav .fas {
         right: 0;
         
     }
+
     /* Locations media Qs */
 
     /* Sub nav links */
+
     .sub-nav-links ul li {
         display: block;
     }
+
     .sub-nav-links {
         position: fixed;
         background: darkorange;
@@ -654,10 +647,13 @@ nav .fas {
     }
 
     /* Booking media Qs */
+
     /* Booking nav links */
+
     .booking-nav-links ul li {
         display: block;
     }
+
     .booking-nav-links {
         position: fixed;
         background: darkorange;
