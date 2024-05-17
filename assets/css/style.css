@@ -37,6 +37,11 @@ h3 {
 p {
     font-family: 'Oswald', sans-serif;
 }
+.sub-nav-links ul li.active a {
+    background: rgba(107, 98, 95, 0.452);
+    border-radius: 20px;
+    padding: 0 0.6em;
+}
 
 /* Header */
 
