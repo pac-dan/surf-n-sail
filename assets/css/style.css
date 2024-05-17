@@ -43,6 +43,12 @@ p {
     padding: 0 0.6em;
 }
 
+.booking-nav-links ul li.active a {
+    background: rgba(156, 156, 156, 0.351);
+    border-radius: 20px;
+    padding: 0 0.6em;
+}
+
 /* Header */
 
 .main-header {
@@ -88,20 +94,6 @@ nav {
     font-size: 13px;
     font-family: 'Lato', sans-serif;
     font-weight: bold;
-}
-
-.nav-links ul li::after {
-    content: '';
-    width: 0%;
-    height: 2px;
-    background-color: darkorange;
-    display: block;
-    margin: auto;
-    transition: 0.5s;
-}
-
-.nav-links ul li:hover::after {
-    width: 100%;
 }
 
 .text-box {
@@ -311,14 +303,14 @@ main h1 {
     text-decoration: none;
     font-size: 1.1em;
     font-family: 'Lato', sans-serif;
-    font-weight: bold;
+    font-weight: bolder;
     letter-spacing: 1px;
 }
 
 .sub-nav-links ul li::after {
     content: '';
     width: 0%;
-    height: 2px;
+    height: 3px;
     background-color: darkorange;
     display: block;
     margin: auto;
@@ -482,16 +474,16 @@ form .radio-buttons {
 .booking-nav-links ul li a {
     color: #fff;
     text-decoration: none;
-    font-size: 1em;
+    font-size: 1.1em;
     font-family: 'Lato', sans-serif;
     font-weight: bold;
-    
+    letter-spacing: 1px;
 }
 
 .booking-nav-links ul li::after {
     content: '';
     width: 0%;
-    height: 2px;
+    height: 3px;
     background-color: darkorange;
     display: block;
     margin: auto;
@@ -501,9 +493,6 @@ form .radio-buttons {
 .booking-nav-links ul li:hover::after {
     width: 100%;
 }
-
-
-
 
 /* Footer */
 
