@@ -46,35 +46,33 @@
             <form id="booking-form" method="get" action="confirmation.html">
                 <label for="first-name">First Name</label>
                 <input type="text" name="first_name" id="first-name" class="text-input" required>
-                <br>
                 <label for="last-name">Last Name</label>
                 <input type="text" name="last_name" id="last-name" class="text-input" required>
-                <br>
                 <label for="email-address">Email Address</label>
                 <input type="email" name="email_address" id="email-address" class="text-input" required>
                 <br>
                 <label for="age">Age</label>
                 <input type="number" name="age" id="age" min="5" max="100" value="5" required>
-                <br>
-                <label for="surf-level">Surf Level</label>
-                <!---- change to dropdown box begin/inter/adv ---->
-                <input type="text" name="surf-level" id="surf-level" class="text-input">
-                <br>
                 <label for="health">Medical Info (If Any)</label>
                 <input type="text" name="health" id="health" class="text-input">
                 <br>
+                <label for="lesson-date">Lesson Date</label>
+                <input type="date" name="lesson_date" id="lesson-date" required>
+                <label for="lesson-time">Lesson Time</label>
+                <input type="time" name="lesson_time" id="lesson-time" required>
+                <br>
                 <div class="radio-buttons">
-                    <div>
+                    <div class="private">
                         <label for="private">Private Lesson</label>
-                        <input type="radio" name="lesson" id="private" value="private" required checked>
+                        <input type="radio" name="lesson" id="private" value="private" required>
                     </div>
-                    <div>
+                    <div class="group">
                         <label for="group">Group Lesson</label>
                         <input type="radio" name="lesson" id="group" value="group" required>
                     </div>
-                    <div>
+                    <div class="camp">
                         <label for="camp">Summer camp</label>
-                        <input type="radio" name="lesson" id="camp" value="camp" required checked>
+                        <input type="radio" name="lesson" id="camp" value="camp" required>
                     </div>
                 </div>
                 <br>
