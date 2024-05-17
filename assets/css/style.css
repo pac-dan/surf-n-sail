@@ -30,10 +30,16 @@ h1 {
     font-weight: 700;
 }
 
-h3 {
+h2 {
     font-family: 'Lato', sans-serif;
     font-style: italic;
     font-weight: bolder;
+}
+
+h3 {
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    font-weight: bold;
 }
 
 .sub-nav-links ul li.active a {
@@ -173,7 +179,7 @@ main h1 {
 
 p {
     color: #000;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 300;
     line-height: 22px;
     padding: 10px;
@@ -220,7 +226,7 @@ main h1 {
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-    padding: 40px 0;
+    background: #d6ccc2;
 }
 
 .courses div {
@@ -229,7 +235,7 @@ main h1 {
 
 .rent {
     text-align: left;
-    padding-top: 2rem;
+    padding-top: 1em;
 }
 
 .less {
@@ -263,7 +269,7 @@ main h1 {
 }
 
 #brandon-home {
-    background: url(../../assets/images/brandon-home.jpeg) no-repeat center center/cover;
+    background: url(../../assets/images/bbay-home.jpeg) no-repeat center center/cover;
 }
 
 /* Locations Page */
@@ -273,7 +279,7 @@ main h1 {
 .sub-header {
     position: relative;
     min-height: 50vh;
-    background: url(../../assets/images/sub-header2.jpg) no-repeat center center/cover;
+    background: url(../../assets/images/locations-header.jpg) no-repeat center center/cover;
 }
 
 .sub-text-box {
