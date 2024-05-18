@@ -665,6 +665,19 @@ nav .fas {
     background: url(../../assets/images/right--2.jpg) no-repeat center center/cover;
 }
 
+.text-box-conf {
+    width: 48%;
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: 'Poetsen One', sans-serif;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+}
+
 
 /* Media Queries for screens 820px-913px */
 
