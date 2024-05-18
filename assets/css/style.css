@@ -374,7 +374,7 @@ main h1 {
 }
 
 .beach-div a {
-    display: inline-block;
+    display: ;
     text-decoration: none;
     color: #fff;
     border: 2px solid #000;
@@ -404,39 +404,38 @@ main h1 {
     flex-direction: row-reverse;
 }
 
-.color-box1 {
+.color-box1,
+.color-box2 {
     background: rgba(0, 254, 34, 0.686);
     border-radius: 20px;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
     padding: 0.8em;
     width: 48%;
+    z-index: 99;
 }
 
 .color-box2 {
-    background: rgba(0, 254, 34, 0.686);
+    box-shadow: -10px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.image-box1,
+.image-box2  {
+    width: 48%;
+}
+
+.image-box1 img,
+.image-box2 img {
+    width: 150%;
     border-radius: 20px;
     box-shadow: -10px 10px 20px rgba(0, 0, 0, 0.3);
-    padding: 0.8em;
-    width: 48%;
-}
 
-.image-box1 {
-    width: 48%;
-}
-
-.image-box2 {
-    width: 48%;
 }
 
 .image-box1 img {
-    width: 100%;
-    border-radius: 20px;
-    box-shadow: -10px 10px 20px rgba(0, 0, 0, 0.3);
+    transform: translateX(-35%);
 }
 
 .image-box2 img {
-    width: 100%;
-    border-radius: 20px;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
 }
 
@@ -671,10 +670,6 @@ nav .fas {
         height: auto;
         margin: 0 auto;
 
-    }
-
-    .image-box img {
-        width: 100%;
     }
 
     .color-box1,
