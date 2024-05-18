@@ -24,6 +24,7 @@ body {
 h1 {
     display: flex;
     flex-direction: column;
+    flex-wrap: nowrap;
     flex-grow: 1;
     font-family: 'Poetsen One', sans-serif;
     font-size: 3.5rem;
@@ -127,7 +128,7 @@ nav {
     border: 2px solid #000;
     border-radius: 20px;
     padding: 12px 34px;
-    background: rgb(0, 13, 255);
+    background: #0B0033;
     cursor: pointer;
     font-family: 'Poetsen One', sans-serif;
 }
@@ -149,6 +150,10 @@ main {
 main h1 {
     text-align: center;
     padding-top: 1rem;
+}
+
+.courses div {
+    width: 100%;
 }
 
 .locations {
@@ -346,86 +351,71 @@ main h1 {
 }
 
 /* Main Content */
-
+/* Beaches Section */
 .beaches {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
+    gap: 2rem; /* Space between the main divs */
     padding: 1rem 0;
 }
 
-.courses div {
-    width: 100%;
-}
-
-.left {
-    text-align: right;
-    padding-top: 2rem;
-}
-
-.right {
-    text-align: left;
-    padding-top: 2rem;
-}
-
-.right-div {
-    order: -1;
-    padding-left: 2%;
-}
-
-.left-div {
-    padding-top: 3rem;
-    margin-left: auto;
-    padding-right: 2%;
-    text-align: right;
-}
-
-.beaches p {
-    font-size: 1.2rem;
-}
-
-.beaches img {
-    max-height: 200px;
-}
-
-.one {
+.beach-div {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
 }
 
-.two {
-    display: flex;
-    flex-direction: row;
-}
-
-.three {
-    display: flex;
-    flex-direction: row-reverse;
-}   
-
-.four {
-    display: flex;
+.beach-div .reverse {
     flex-direction: row-reverse;
 }
 
-/* Beaches */
-
-.color-box-1 {
-    background: rgba(0, 254, 34, 0.686);
-    border-radius: 20px;
-    box-shadow: -10px 10px 20px rgba(0, 0, 0, 0.3);
-    padding: 0.8em;
-    margin: 1em 0;
-}
-
-.color-box-2 {
+.color-box1{
     background: rgba(0, 254, 34, 0.686);
     border-radius: 20px;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
     padding: 0.8em;
-    margin: 1em 0;
+    width: 48%;
 }
+
+.color-box2{
+    background: rgba(0, 254, 34, 0.686);
+    border-radius: 20px;
+    box-shadow: -10px 10px 20px rgba(0, 0, 0, 0.3);
+    padding: 0.8em;
+    width: 48%;
+}
+
+.image-box1 {
+    width: 48%;
+}
+
+.image-box2 {
+    width: 48%;
+}
+
+.image-box1 img {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: -10px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.image-box2 img {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Adjust the text alignment */
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
 
 /* Booking page */
 
@@ -480,7 +470,7 @@ form label {
     border: 2px solid #000;
     border-radius: 20px;
     padding: 12px 34px;
-    background: rgb(0, 13, 255);
+    background: #0B0033;
     cursor: pointer;
 }
 
@@ -488,7 +478,7 @@ form label {
     border: 2px solid #000;
     color: rgb(0, 13, 255);
     background: #fff;
-    transition: 1s;
+    transition: .5s;
 }
 
 
