@@ -436,8 +436,7 @@ main h1 {
     color: #fff;
     border: 2px solid darkorange;
     background: rgba(0, 0, 0, .7);
-    border-radius: 20px;
-    box-shadow: -20px 10px 20px rgba(0, 0, 0, 0.3);
+
 }
 
 form {
@@ -449,6 +448,8 @@ form {
     left: 25%;
     width: 50%;
     height: fit-content;
+    border-radius: 20px;
+    box-shadow: -20px 10px 20px rgba(0, 0, 0, 0.3);
 }
 
 form label {
