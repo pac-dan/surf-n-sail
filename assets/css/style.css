@@ -208,7 +208,9 @@ main h1 {
 /* Lessons/Rentals info */
 
 #box-style1,
-#box-style2 {
+#box-style2,
+#box-style3,
+#box-style4 {
     background: #00b4d8;
     border: 2px solid #000;
     border-radius: 21px;
@@ -219,7 +221,8 @@ main h1 {
     box-shadow: 8px 8px rgba(0, 180, 216, 0.5);
 }
 
-#box-style2 {
+#box-style3,
+#box-style4 {
     box-shadow: -8px 8px rgba(0, 180, 216, 0.5);
 }
 
