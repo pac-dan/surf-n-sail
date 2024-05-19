@@ -177,7 +177,7 @@ main h1 {
 /* About Us */
 
 .about-us {
-    
+
 }
 
 #box-style {
@@ -589,13 +589,20 @@ form .radio-buttons {
 
 /* Lesson Times adn Opening Hours */
 
+.timetable {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
 .schedule {
     background-color: #fff;
-    padding: 20px;
+    padding: .5em;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     width: 94%;
     max-width: 800px;
+    margin: 0 auto;
 }
 
 table {
@@ -805,7 +812,7 @@ nav .fas {
             border-radius: 20px;
             box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
             padding: 0.8em;
-            width: 95%;
+            width: 93%;
             margin: 0 auto;
         }
 
