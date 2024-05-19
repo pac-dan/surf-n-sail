@@ -678,12 +678,15 @@ footer li {
 footer a {
     display: inline-block;
     padding: 10px;
-
 }
 
 footer a i {
     color: #fff;
     font-size: 2rem;
+}
+
+footer a i:hover {
+    color: #000; 
 }
 
 /* Hide nav-toggle initially on larger screens */
