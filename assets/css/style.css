@@ -70,6 +70,7 @@ main h1 {
     border-radius: 20px;
     padding: 0 0.6em;
 }
+
 /*
 .booking-nav-links ul li.active a {
     background: rgba(156, 156, 156, 0.351);
@@ -122,6 +123,7 @@ nav {
     background: url(../../assets/images/main-header1.jpg) no-repeat center center/cover;
 
 }
+
 .text-box {
     width: 90%;
     color: black;
@@ -178,9 +180,7 @@ main h1 {
 
 /* About Us */
 
-.about-us {
-
-}
+.about-us {}
 
 #box-style {
     background: #A7E2E3;
@@ -614,7 +614,8 @@ table {
     border: 2px solid #000;
 }
 
-th, td {
+th,
+td {
     padding: 12px;
     text-align: center;
     border: 1px solid #ddd;
@@ -641,43 +642,6 @@ tbody tr:hover {
     width: 100%;
     background: url(../../assets/images/booking-page.jpg) no-repeat center center/cover;
 }
-
-/* Change color of nav-links for booking page */
-/*  
-.booking-nav-links {
-    flex: 1;
-    text-align: right;
-}
-
-.booking-nav-links ul li {
-    list-style: none;
-    display: inline-block;
-    padding: 8px 5px;
-    position: relative;
-}
-
-.booking-nav-links ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 1em;
-    font-family: 'Lato', sans-serif;
-    font-weight: bold;
-    letter-spacing: 1px;
-}
-
-.booking-nav-links ul li::after {
-    content: '';
-    width: 0%;
-    height: 3px;
-    background-color: darkorange;
-    display: block;
-    margin: auto;
-    transition: 0.5s;
-}
-
-.booking-nav-links ul li:hover::after {
-    width: 100%;
-}*/
 
 /* Footer */
 
@@ -714,7 +678,7 @@ footer a i {
 }
 
 footer a i:hover {
-    color: #000; 
+    color: #000;
 }
 
 /* Hide nav-toggle initially on larger screens */
@@ -751,10 +715,10 @@ nav .fas {
 
 /* Media Queries for screens 820px-913px */
 
- /* Media Queries */
+/* Media Queries */
 
 @media(max-width: 913px) {
-    
+
     /* increases surf spots images for smaller screens */
 
     #find-us .surf-spots {
@@ -767,305 +731,239 @@ nav .fas {
     }
 }
 
-    /* Media Queries for screens 768px-820px */
+/* Media Queries for screens 768px-820px */
 
-    /* Beaches */
+/* Beaches */
 
-    @media(max-width: 820px) {
+@media(max-width: 820px) {
 
-        /* increases surf spots images for smaller screens */
+    /* increases surf spots images for smaller screens */
 
-        #find-us .surf-spots {
-            flex-basis: 40%;
-            margin: 10px;
-            padding: 15px;
-            background-color: rgba(81, 50, 255, 0.2);
-            border-radius: 10px;
-            text-align: center;
-        }
-
-        .beach-div {
-            flex-direction: column;
-            align-items: center;
-            letter-spacing: 0.25px;
-        }
-
-        .beach-div p {
-            line-height: 1.5rem;
-        }
-
-        .beach-div.reverse {
-            flex-direction: column;
-            flex-direction: column-reverse;
-            align-items: center;
-        }
-
-        .color-box,
-        .image-box {
-            width: 100%;
-            max-width: 600px;
-            height: auto;
-            margin: 0 auto;
-
-        }
-
-        .color-box1,
-        .color-box2 {
-            background: rgba(0, 254, 34, 0.686);
-            border-radius: 20px;
-            box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
-            padding: 0.8em;
-            width: 93%;
-            margin: 0 auto;
-        }
-
-        .color-box2 {
-            box-shadow: -10px 10px 20px rgba(0, 0, 0, 0.3);
-        }
-
-        body {
-            width: 100%;
-        }
-
-        h1 {
-            font-family: 'Poetsen One', sans-serif;
-            font-size: 2.5rem;
-            font-weight: 500;
-        }
-
-        .text-box p {
-            margin: 10px 0 40px;
-            font-size: 1rem;
-            font-weight: bold;
-            color: #000;
-            font-family: "Bebas Neue", sans-serif;
-        }
-
-        /* Home media Qs */
-
-        /*navlinks */
-/*               
-        .nav-links ul li {
-            display: block;
-        }*/
-
-        #x-1 {
-            color: #000;
-            display: block;
-            font-size: 32px;
-            cursor: pointer;
-        }
-
-        #bars-1 {
-            display: block;
-            color: #000;
-            font-size: 2em;
-            cursor: pointer;
-            padding: 0.5em 0.5em;
-        }
-
-          /*  
-        .nav-links ul {
-            padding: 30px;
-        }*/
-
-        /* Logo  */
-
-        .logo {
-            max-width: 180px;
-            height: 1.5rem;
-        }
-
-        #bars {
-
-            padding: 3% 3%;
-            position: fixed;
-            right: 0;
-        }
-
-        /* Locations media Qs */
-
-        /* Sub nav links */
-
-        .sub-nav-links ul li {
-            display: block;
-        }
-
-        .sub-nav-links {
-            position: fixed;
-            background: darkorange;
-            height: 100%;
-            width: 200px;
-            top: 0;
-            right: -200px;
-            text-align: left;
-            z-index: 999;
-            transition: 0.5s;
-        }
-
-        .sub-nav-links ul {
-            padding: 20px;
-        }
-
-
-        /* Booking media Qs */
-
-        /* Booking nav links 
-
-        .booking-nav-links ul li {
-            display: block;
-        }
-
-        .booking-nav-links {
-            position: fixed;
-            background: darkorange;
-            height: 100vh;
-            width: 200px;
-            top: 0;
-            right: -200px;
-            text-align: left;
-            z-index: 999;
-            transition: 0.5s;
-        }
-
-        .booking-nav-links ul {
-            padding: 30px;
-        }*/
+    #find-us .surf-spots {
+        flex-basis: 40%;
+        margin: 10px;
+        padding: 15px;
+        background-color: rgba(81, 50, 255, 0.2);
+        border-radius: 10px;
+        text-align: center;
     }
 
-
-    /* Media Queries for screens up to 768px wide */
-
-    @media(max-width: 768px) {
-
-        body {
-            width: 100%;
-        }
-
-        h1 {
-            font-family: 'Poetsen One', sans-serif;
-            font-size: 2.5rem;
-            font-weight: 500;
-        }
-
-        .text-box p {
-            margin: 10px 0 40px;
-            font-size: 1rem;
-            font-weight: bold;
-            color: #000;
-            font-family: "Bebas Neue", sans-serif;
-        }
-
-        /* Home media Qs */
-
-        /*navlinks */
-/*  
-        .nav-links ul li {
-            display: block;
-        }*/
-
-        #x-1 {
-            color: #000;
-            display: block;
-            font-size: 32px;
-            cursor: pointer;
-        }
-
-        #bars-1 {
-            display: block;
-            color: #000;
-            font-size: 2em;
-            cursor: pointer;
-            padding: 0.5em 0.5em;
-        }
-
-        /* Logo  */
-
-        .logo {
-            max-width: 180px;
-            height: 1.5rem;
-        }
-
-        #bars {
-
-            padding: 3% 3%;
-            position: fixed;
-            right: 0;
-        }
-
-        /* Locations media Qs */
-
-        /* Sub nav links */
-
-        .sub-nav-links ul li {
-            display: block;
-        }
-
-        .sub-nav-links {
-            position: fixed;
-            background: darkorange;
-            height: 100%;
-            width: 200px;
-            top: 0;
-            right: -200px;
-            text-align: left;
-            z-index: 999;
-            transition: 0.5s;
-        }
-
-        .sub-nav-links ul {
-            padding: 20px;
-        }
-
-        /* increases surf spots images for smaller screens */
-
-        #find-us .surf-spots {
-            flex-basis: 40%;
-            margin: 10px;
-            padding: 15px;
-            background-color: rgba(81, 50, 255, 0.2);
-            border-radius: 10px;
-            text-align: center;
-        }
-
-        /* Booking media Qs */
-
-        /* Booking nav links */
-/*  
-        .booking-nav-links ul li {
-            display: block;
-        }
-
-        .booking-nav-links {
-            position: fixed;
-            background: darkorange;
-            height: 100vh;
-            width: 200px;
-            top: 0;
-            right: -200px;
-            text-align: left;
-            z-index: 999;
-            transition: 0.5s;
-        }
-
-        .booking-nav-links ul {
-            padding: 30px;
-        }*/
+    .beach-div {
+        flex-direction: column;
+        align-items: center;
+        letter-spacing: 0.25px;
     }
 
-    @media(max-width: 516px) {
-        /* increases surf spots images for smaller screens */
+    .beach-div p {
+        line-height: 1.5rem;
+    }
 
-        #find-us .surf-spots {
-            flex-basis: 100%;
-            margin: 10px;
-            padding: 15px;
-            background-color: rgba(81, 50, 255, 0.2);
-            border-radius: 10px;
-            text-align: center;
-        }
+    .beach-div.reverse {
+        flex-direction: column;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .color-box,
+    .image-box {
+        width: 100%;
+        max-width: 600px;
+        height: auto;
+        margin: 0 auto;
 
     }
+
+    .color-box1,
+    .color-box2 {
+        background: rgba(0, 254, 34, 0.686);
+        border-radius: 20px;
+        box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+        padding: 0.8em;
+        width: 93%;
+        margin: 0 auto;
+    }
+
+    .color-box2 {
+        box-shadow: -10px 10px 20px rgba(0, 0, 0, 0.3);
+    }
+
+    body {
+        width: 100%;
+    }
+
+    h1 {
+        font-family: 'Poetsen One', sans-serif;
+        font-size: 2.5rem;
+        font-weight: 500;
+    }
+
+    .text-box p {
+        margin: 10px 0 40px;
+        font-size: 1rem;
+        font-weight: bold;
+        color: #000;
+        font-family: "Bebas Neue", sans-serif;
+    }
+
+    /* Home media Qs */
+
+    #x-1 {
+        color: #000;
+        display: block;
+        font-size: 32px;
+        cursor: pointer;
+    }
+
+    #bars-1 {
+        display: block;
+        color: #000;
+        font-size: 2em;
+        cursor: pointer;
+        padding: 0.5em 0.5em;
+    }
+
+    /* Logo  */
+
+    .logo {
+        max-width: 180px;
+        height: 1.5rem;
+    }
+
+    #bars {
+
+        padding: 3% 3%;
+        position: fixed;
+        right: 0;
+    }
+
+    /* Locations media Qs */
+
+    /* Sub nav links */
+
+    .sub-nav-links ul li {
+        display: block;
+    }
+
+    .sub-nav-links {
+        position: fixed;
+        background: darkorange;
+        height: 100%;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 999;
+        transition: 0.5s;
+    }
+
+    .sub-nav-links ul {
+        padding: 20px;
+    }
+}
+
+
+/* Media Queries for screens up to 768px wide */
+
+@media(max-width: 768px) {
+
+    body {
+        width: 100%;
+    }
+
+    h1 {
+        font-family: 'Poetsen One', sans-serif;
+        font-size: 2.5rem;
+        font-weight: 500;
+    }
+
+    .text-box p {
+        margin: 10px 0 40px;
+        font-size: 1rem;
+        font-weight: bold;
+        color: #000;
+        font-family: "Bebas Neue", sans-serif;
+    }
+
+    /* Home media Qs */
+
+    #x-1 {
+        color: #000;
+        display: block;
+        font-size: 32px;
+        cursor: pointer;
+    }
+
+    #bars-1 {
+        display: block;
+        color: #000;
+        font-size: 2em;
+        cursor: pointer;
+        padding: 0.5em 0.5em;
+    }
+
+    /* Logo  */
+
+    .logo {
+        max-width: 180px;
+        height: 1.5rem;
+    }
+
+    #bars {
+
+        padding: 3% 3%;
+        position: fixed;
+        right: 0;
+    }
+
+    /* Locations media Qs */
+
+    /* Sub nav links */
+
+    .sub-nav-links ul li {
+        display: block;
+    }
+
+    .sub-nav-links {
+        position: fixed;
+        background: darkorange;
+        height: 100%;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 999;
+        transition: 0.5s;
+    }
+
+    .sub-nav-links ul {
+        padding: 20px;
+    }
+
+    /* increases surf spots images for smaller screens */
+
+    #find-us .surf-spots {
+        flex-basis: 40%;
+        margin: 10px;
+        padding: 15px;
+        background-color: rgba(81, 50, 255, 0.2);
+        border-radius: 10px;
+        text-align: center;
+    }
+}
+
+@media(max-width: 516px) {
+    /* increases surf spots images for smaller screens */
+
+    #find-us .surf-spots {
+        flex-basis: 100%;
+        margin: 10px;
+        padding: 15px;
+        background-color: rgba(81, 50, 255, 0.2);
+        border-radius: 10px;
+        text-align: center;
+    }
+
+}
 
 @media(max-width: 456px) {
 
