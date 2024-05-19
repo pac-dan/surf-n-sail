@@ -78,42 +78,43 @@ In this section, you should go over the different parts of your project, and des
   - The About Us section will allow the user to get a quick understanding of who we are and what we do, as well as the benefits of Surfing with us at some of the most beautiful beaches in the world. 
   - This user will see the value of what booking a lesson can do for their surfing. This should encourage the user to consider Booking a Private/Group Lesson to make improvements on their surfing or to start off and just get the basics. 
 
-![Club Ethos]()
+![School Info]()
 
 - **Courses**
 
   - This section will allow the user to see exactly what Courses we have to offer, having Day/Weekend Rentals and Group/Private Lessons clearly displayed on the page.
   - This section will be updated as these times change to keep the user up to date. 
 
-![Meetup Times]()
+![Courses]()
 
 - __The Footer__ 
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
-
+  - The footer section includes links to the relevant social media sites for  SURF N'SAIL. The links will open to a new tab to allow easy navigation for the user. 
+  - The footer is valuable to the user as it encourages them to keep connected via social media.
+  - The hover feature adds responsive touch for the user letting them know it is a clickable link.
 ![Footer]()
 
-- __Gallery__
+- **Locations**
 
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
+  - The Locations page will provide the user with supporting images to see what our Beaches and Waves look like. 
+  - This section is valuable to the user as they will be able to find directions to every beach we are established and teaching at. 
+  - With a colorful layout and high quality pictures users should be looking to book a lesson or get directions to come rent equipment.
+![Locations]()
 
-![Gallery]()
+- **Book Now**
 
-- __The Sign Up Page__
+  - This page will allow the user to get Booked In with SURF N'SAIL to start their surfing journey with a strong knowledgable community. The user will be able specify if they would like to take part in Private, Group or Summer Camp Lessons. The user will be asked to submit their full name and email address. 
 
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
+![Book Now]()
 
-![Sign Up]()
+**Confirmation Page**
 
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+  - This page will inform users that they have succesfully booked and will recieve a confirmation to the users email address regarding specific booking times and conditions. Also leaving a contact number for any further questions.
+  - This is also a chance to thank the user for visiting our page and that we look forward to future surf!
 
 ### Features Left to Implement
 
-- Another feature idea
+- 
 
 ## Testing 
 
