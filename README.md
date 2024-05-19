@@ -27,10 +27,9 @@ In this section, you should go over the different parts of your project, and des
 
 3. **Booking Page (booking.html)**
    - **Booking Form**: A user-friendly form where visitors can select their preferred lesson type (group, summer camp, private), date, and time.
-   - **Availability Calendar**: A calendar feature that shows available slots for lessons, helping users choose a convenient time.
+   - **Hours Table**: A table feature that shows available times for lessons, helping users choose a convenient time.
 
 4. **Confirmation Page (confirmation.html)**
-   - **Booking Summary**: Displays a summary of the booking details including the lesson type, date, time, and any additional notes.
    - **Thank You Message**: A thank you note confirming the booking and providing any necessary follow-up information or instructions.
    - **Contact Information**: Details on how to contact the surf school for any further queries or changes to the booking.
 
