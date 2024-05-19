@@ -70,19 +70,21 @@ main h1 {
     border-radius: 20px;
     padding: 0 0.6em;
 }
-
+/*
 .booking-nav-links ul li.active a {
     background: rgba(156, 156, 156, 0.351);
     border-radius: 20px;
     padding: 0 0.6em;
-}
+ } */
 
 /* Navbar */
 
 nav {
+    background: rgba(255, 255, 255, 0.658);
     position: fixed;
     display: flex;
-    padding-top: 1%;
+    padding-top: 2%;
+    padding-bottom: 2%;
     justify-content: space-between;
     align-items: center;
     width: 100%;
@@ -501,12 +503,13 @@ main h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 90%;
-    color: #fff;
+    width: 50%;
+    color: #000;
     position: absolute;
-    top: 10%;
+    top: 3%;
     left: 50%;
     transform: translateX(-50%);
+    z-index: 1000;
 }
 
 #booking-form {
@@ -640,7 +643,7 @@ tbody tr:hover {
 }
 
 /* Change color of nav-links for booking page */
-
+/*  
 .booking-nav-links {
     flex: 1;
     text-align: right;
@@ -674,7 +677,7 @@ tbody tr:hover {
 
 .booking-nav-links ul li:hover::after {
     width: 100%;
-}
+}*/
 
 /* Footer */
 
@@ -841,20 +844,13 @@ nav .fas {
         /* Home media Qs */
 
         /*navlinks */
-
+/*               
         .nav-links ul li {
             display: block;
-        }
+        }*/
 
         #x-1 {
             color: #000;
-            display: block;
-            font-size: 32px;
-            cursor: pointer;
-        }
-
-        #x-2 {
-            color: #fff;
             display: block;
             font-size: 32px;
             cursor: pointer;
@@ -868,17 +864,10 @@ nav .fas {
             padding: 0.5em 0.5em;
         }
 
-        #bars-2 {
-            display: block;
-            color: #fff;
-            font-size: 2em;
-            cursor: pointer;
-            padding: 0.5em 0.5em;
-        }
-
+          /*  
         .nav-links ul {
             padding: 30px;
-        }
+        }*/
 
         /* Logo  */
 
@@ -915,13 +904,13 @@ nav .fas {
         }
 
         .sub-nav-links ul {
-            padding: 30px;
+            padding: 20px;
         }
 
 
         /* Booking media Qs */
 
-        /* Booking nav links */
+        /* Booking nav links 
 
         .booking-nav-links ul li {
             display: block;
@@ -941,7 +930,7 @@ nav .fas {
 
         .booking-nav-links ul {
             padding: 30px;
-        }
+        }*/
     }
 
 
@@ -970,20 +959,13 @@ nav .fas {
         /* Home media Qs */
 
         /*navlinks */
-
+/*  
         .nav-links ul li {
             display: block;
-        }
+        }*/
 
         #x-1 {
             color: #000;
-            display: block;
-            font-size: 32px;
-            cursor: pointer;
-        }
-
-        #x-2 {
-            color: #fff;
             display: block;
             font-size: 32px;
             cursor: pointer;
@@ -995,18 +977,6 @@ nav .fas {
             font-size: 2em;
             cursor: pointer;
             padding: 0.5em 0.5em;
-        }
-
-        #bars-2 {
-            display: block;
-            color: #fff;
-            font-size: 2em;
-            cursor: pointer;
-            padding: 0.5em 0.5em;
-        }
-
-        .nav-links ul {
-            padding: 30px;
         }
 
         /* Logo  */
@@ -1044,7 +1014,7 @@ nav .fas {
         }
 
         .sub-nav-links ul {
-            padding: 30px;
+            padding: 20px;
         }
 
         /* increases surf spots images for smaller screens */
@@ -1061,7 +1031,7 @@ nav .fas {
         /* Booking media Qs */
 
         /* Booking nav links */
-
+/*  
         .booking-nav-links ul li {
             display: block;
         }
@@ -1080,7 +1050,7 @@ nav .fas {
 
         .booking-nav-links ul {
             padding: 30px;
-        }
+        }*/
     }
 
     @media(max-width: 516px) {
