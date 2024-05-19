@@ -8,94 +8,104 @@ So instead of taking calls/messages/emails all the time, a large portion of the 
 The website is designed to bring users to the boking section while giving them the necessary information on the way. The target audience is anyone who is visiting the area looking for some activities and repeat customers. Essentially the website adds order to a rather messy business with calls coming from everywhere and anyone it funnels all classes into a booking form rather than manually booking. The website is also a way to establish the surf school as reputable and to market the latest news and show off previous success.
 
 
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+![Responsice Mockup]()
 
 # Features 
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
-1. Home Page (index.html)
+1. **Home Page (index.html)**
+
    - **Welcome Message**: A brief introduction to Surf N' Sail surf school, welcoming visitors and providing an overview of what the school 
     offers.
    - **Navigation Menu**: Easy-to-use navigation menu to access different sections of the website including Locations, Booking.
    - **Hero Image**: A captivating image of surfing to engage visitors right from the start.
    - **About Us Section**: A brief description of the surf school, its mission, and what sets it apart from other surf schools.
+   - **Courses**: A description of our rentals and lessons offers, prices. With link to book.
 
 2. **Locations Page (locations.html)**
+
    - **Beach Information**: Detailed descriptions of the various beaches where lessons are conducted. Information includes the location, features of the beach, and why it’s great for surfing.
    - **Image Gallery**: A gallery showcasing high-quality images of each beach to give visitors a visual understanding of the beautiful locations.
 
 3. **Booking Page (booking.html)**
+
    - **Booking Form**: A user-friendly form where visitors can select their preferred lesson type (group, summer camp, private), date, and time.
    - **Hours Table**: A table feature that shows available times for lessons, helping users choose a convenient time.
 
 4. **Confirmation Page (confirmation.html)**
+
    - **Thank You Message**: A thank you note confirming the booking and providing any necessary follow-up information or instructions.
    - **Contact Information**: Details on how to contact the surf school for any further queries or changes to the booking.
 
 5. **Responsive Design**
+
    - **Mobile-Friendly Layout**: The website is fully responsive and optimized for mobile devices, ensuring a seamless experience on smartphones and tablets.
 
 6. **Custom Styling (style.css)**
+
    - **Consistent Branding**: The website uses a consistent color scheme, typography, and branding elements to create a professional and cohesive look.
    - **User Experience Enhancements**: CSS animations and transitions improve user interaction and make the website more engaging.
 
 7. **Accessibility Features**
-   - **Alt Text for Images**: All images include alt text to assist users who rely on screen readers.
+
+   - **Alt Text for Images**: All images include alt text to assist users who rely on screen readers. Some alt text is shown using a hidden span as images are loaded into the css file.
 
 8. **Performance Optimizations**
+
    - **Lazy Loading Images**: Images are lazy-loaded to improve initial load time and performance, especially on slower networks.
-   - **Minified CSS and JavaScript**: CSS and JavaScript files are minified to reduce file size and enhance loading speed.
+   - **Minified CSS**: CSS files are minified to reduce file size and enhance loading speed.
 
 ### Existing Features
 
 - __Navigation Bar__
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Location and Booking page and is identical in each page to allow for easy navigation(Color for HOME/LOCATION/BOOK NOW changed to white in booking page for visual reasons).  
+  - Nav Bar is also fixed so that it follows as you scroll so that user does not have to scroll up to change pages.
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+![Nav Bar]()
 
 - __The landing page image__
 
   - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
+  - This section introduces the user to SURF N'SAIL with an eye catching animation to grab their attention.
+  - With the Book Now button in the landing image customers who know what they want and just want to book can do so without having to look anywhere else. Great uf the surf school is getting a customer to book online with bad connection on a beach.
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Landing Page]()
 
-- __Club Ethos Section__
+- **About Us Section**
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
+  - The About Us section will allow the user to get a quick understanding of who we are and what we do, as well as the benefits of Surfing with us at some of the most beautiful beaches in the world. 
+  - This user will see the value of what booking a lesson can do for their surfing. This should encourage the user to consider Booking a Private/Group Lesson to make improvements on their surfing or to start off and just get the basics. 
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+![Club Ethos]()
 
-- __Meetup Times section__
+- **Courses**
 
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
+  - This section will allow the user to see exactly what Courses we have to offer, having Day/Weekend Rentals and Group/Private Lessons clearly displayed on the page.
   - This section will be updated as these times change to keep the user up to date. 
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+![Meetup Times]()
 
 - __The Footer__ 
 
   - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
   - The footer is valuable to the user as it encourages them to keep connected via social media
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+![Footer]()
 
 - __Gallery__
 
   - The gallery will provide the user with supporting images to see what the meet ups look like. 
   - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+![Gallery]()
 
 - __The Sign Up Page__
 
   - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
 
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+![Sign Up]()
 
 For some/all of your features, you may choose to reference the specific project files that implement them.
 
