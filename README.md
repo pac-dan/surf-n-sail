@@ -114,7 +114,7 @@ In this section, you should go over the different parts of your project, and des
 
 ### Features Left to Implement
 
-- 
+- add alt attribute in <span> hidden element for images screen readers
 
 ## Testing 
 
@@ -140,35 +140,36 @@ You will need to mention unfixed bugs and why they were not fixed. This section 
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
+This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+- Click Pages, Find Build and Deployment, select 'source'-'deploy from a branch'.
+- Find 'Select Branch'-'Main Branch' Click save.
+- Project now deployed and updates to new version when changes are pushed from gitpod --> github.
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
+
+The live link can be found here - https://pac-dan.github.io/surf-n-sail/
 
 
 ## Credits 
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
+https://www.w3schools.com/
+https://kingdomwaves.com/
+https://fontawesome.com/
+https://www.pexels.com/search/surf/ 
+https://learn.codeinstitute.net/courses
 
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
 
 ### Content 
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
+- I took inspiration from the love running website and then used to find useful html/css/javascript tags -- https://www.w3schools.com/
+- I also used a website created by the company i work for Kingdom Waves for some inspiration/content ideas -- https://kingdomwaves.com/
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
 ### Media
 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
-
-
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
+- I downloaded all photos from -- https://www.pexels.com/search/surf/ 
 
 ## Other General Project Advice
 
