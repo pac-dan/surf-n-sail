@@ -16,6 +16,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-color: whitesmoke;
 }
 
 h1 {
@@ -71,13 +72,6 @@ main h1 {
     padding: 0 0.6em;
 }
 
-/*
-.booking-nav-links ul li.active a {
-    background: rgba(156, 156, 156, 0.351);
-    border-radius: 20px;
-    padding: 0 0.6em;
- } */
-
 /* Navbar */
 
 nav {
@@ -110,6 +104,17 @@ nav {
     font-size: 13px;
     font-family: 'Lato', sans-serif;
     font-weight: bold;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
 }
 
 /* Home Page */
@@ -167,7 +172,12 @@ nav {
 
 /* Main color and push footer down */
 main {
-    background-color: whitesmoke;
+     
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 2px;
+    padding-right: 2px;
     flex: 1 0 auto;
 }
 
@@ -644,8 +654,18 @@ tbody tr:hover {
 /* Footer */
 
 footer {
+
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* column-count: 2; */
     background-color: #fc0202;
     padding: 1rem 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /* Positioning for the social media icons */
@@ -654,20 +674,15 @@ footer ul {
     list-style-type: none;
     padding: 0;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end; 
 
 }
 
 footer li {
-    margin: 0 10px;
+    margin: 0 5px;
     flex-grow: 1;
-    text-align: center;
+    text-align: right;
 
-}
-
-footer a {
-    display: inline-block;
-    padding: 10px;
 }
 
 footer a i {
@@ -678,6 +693,16 @@ footer a i {
 footer a i:hover {
     color: #000;
 }
+
+.left-links a {
+    color: #000;
+    text-decoration: none;
+}
+
+.left-links a:hover {
+    color: #fff;
+}
+
 
 /* Hide nav-toggle initially on larger screens */
 
