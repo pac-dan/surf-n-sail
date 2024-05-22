@@ -78,8 +78,8 @@ nav {
     background: rgba(255, 255, 255, 0.658);
     position: fixed;
     display: flex;
-    padding-top: 2%;
-    padding-bottom: 2%;
+    padding-top: 1.2%;
+    padding-bottom: 1.2%;
     justify-content: space-between;
     align-items: center;
     width: 100%;
@@ -113,7 +113,6 @@ nav {
     margin: -1px;
     padding: 0;
     overflow: hidden;
-    clip: rect(0, 0, 0, 0);
     border: 0;
 }
 
@@ -126,7 +125,6 @@ nav {
     min-height: 100vh;
     width: 100%;
     background: url(../../assets/images/main-header1.jpg) no-repeat center center/cover;
-
 }
 
 .text-box {
@@ -204,6 +202,11 @@ main h1 {
 
 /* Courses div sizing */
 
+.courses h2 {
+    align-self: center;
+    order: -1;
+}
+
 .courses div {
     width: 100%;
 }
@@ -230,6 +233,8 @@ main h1 {
 .location-link:hover::after {
     width: 50%;
 }
+
+
 
 /* Main  */
 
@@ -352,7 +357,7 @@ main h1 {
     width: 90%;
     color: black;
     position: absolute;
-    top: 75%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -512,13 +517,14 @@ main h1 {
     flex-direction: column;
     align-items: center;
     width: 50%;
-    color: #000;
+    color: #fff;
     position: absolute;
-    top: 3%;
-    left: 50%;
+    top: 8%;
+    left: 51%;
     transform: translateX(-50%);
     z-index: 1000;
 }
+
 
 #booking-form {
     padding: 1rem .5rem;
@@ -756,9 +762,54 @@ nav .fas {
 
 /* Media Queries for screens 768px-820px */
 
-/* Beaches */
+@media(max-width: 821px) {
 
-@media(max-width: 820px) {
+    /* general styles */
+
+     h1 {
+        font-family: 'Poetsen One', sans-serif;
+        font-size: 2.5rem;
+        font-weight: 500;
+    }
+
+    .text-box p {
+        margin: 10px 0 40px;
+        font-size: 1rem;
+        font-weight: bold;
+        color: #000;
+        font-family: "Bebas Neue", sans-serif;
+    }
+
+    /* Hompage MQs */
+
+    #x-1 {
+        color: #000;
+        display: block;
+        font-size: 32px;
+        cursor: pointer;
+    }
+
+    #bars-1 {
+        display: block;
+        color: #000;
+        font-size: 2em;
+        cursor: pointer;
+        padding: 0.5em 0.5em;
+    }
+
+    /* Logo  */
+
+    .logo {
+        max-width: 180px;
+        height: 1.5rem;
+    }
+
+    #bars {
+
+        padding: 3% 3%;
+        position: fixed;
+        right: 0;
+    }
 
     /* increases surf spots images for smaller screens */
 
@@ -771,6 +822,30 @@ nav .fas {
         text-align: center;
     }
 
+    /* Locations media Qs */
+
+    /* Sub nav links */
+
+    .sub-nav-links ul li {
+        display: block;
+    }
+
+    .sub-nav-links {
+        position: fixed;
+        background: darkorange;
+        height: 100%;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 999;
+        transition: 0.5s;
+    }
+
+    .sub-nav-links ul {
+        padding: 20px;
+    }
+    
     .beach-div {
         flex-direction: column;
         align-items: center;
@@ -812,75 +887,6 @@ nav .fas {
 
     body {
         width: 100%;
-    }
-
-    h1 {
-        font-family: 'Poetsen One', sans-serif;
-        font-size: 2.5rem;
-        font-weight: 500;
-    }
-
-    .text-box p {
-        margin: 10px 0 40px;
-        font-size: 1rem;
-        font-weight: bold;
-        color: #000;
-        font-family: "Bebas Neue", sans-serif;
-    }
-
-    /* Home media Qs */
-
-    #x-1 {
-        color: #000;
-        display: block;
-        font-size: 32px;
-        cursor: pointer;
-    }
-
-    #bars-1 {
-        display: block;
-        color: #000;
-        font-size: 2em;
-        cursor: pointer;
-        padding: 0.5em 0.5em;
-    }
-
-    /* Logo  */
-
-    .logo {
-        max-width: 180px;
-        height: 1.5rem;
-    }
-
-    #bars {
-
-        padding: 3% 3%;
-        position: fixed;
-        right: 0;
-    }
-
-    /* Locations media Qs */
-
-    /* Sub nav links */
-
-    .sub-nav-links ul li {
-        display: block;
-    }
-
-    .sub-nav-links {
-        position: fixed;
-        background: darkorange;
-        height: 100%;
-        width: 200px;
-        top: 0;
-        right: -200px;
-        text-align: left;
-        z-index: 999;
-        transition: 0.5s;
-    }
-
-    .sub-nav-links ul {
-        padding: 20px;
     }
 }
 
@@ -974,7 +980,9 @@ nav .fas {
     }
 }
 
+
 @media(max-width: 516px) {
+
     /* increases surf spots images for smaller screens */
 
     #find-us .surf-spots {
@@ -985,13 +993,11 @@ nav .fas {
         border-radius: 10px;
         text-align: center;
     }
-
 }
 
 @media(max-width: 456px) {
 
     /* reduce font size for p element to keep content on screen */
-
     .beaches p {
         font-size: .95rem;
     }
