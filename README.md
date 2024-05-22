@@ -129,18 +129,25 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ### Validator Testing 
 
-- HTML
+- **HTML**
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/#textarea)
-  - index.html --  Relative file path --(assets/validation-/homepage-val.png)
-  - locations.html -- Relative file path --(assets/validation-/locationspage-val.png)
-  - booking.html -- Relative file path --(assets/validation-/bookingpage-val.png)
-  - confirmation.html -- Relative file path --(assets/validation-/confirmationpage-val.png)
+  - **index.html**     -- (https://validator.w3.org/nu/?doc=https%3A%2F%2Fpac-dan.github.io%2Fsurf-n-sail%2Findex.html) - 
+  - Relative file path -- (assets/validation-/homepage-val.png)
+  - **locations.html** -- (https://validator.w3.org/nu/?doc=https%3A%2F%2Fpac-dan.github.io%2Fsurf-n-sail%2Flocations.html) -
+  - Relative file path -- (assets/validation-/locationspage-val.png)
+
+  - **booking.html**   -- (https://validator.w3.org/nu/?doc=https%3A%2F%2Fpac-dan.github.io%2Fsurf-n-sail%2Fbooking.html) 
+  - Relative file path -- assets/validation-/bookingpage-val.png)
+
+  - **confirmation.html** -- (https://validator.w3.org/nu/?doc=https%3A%2F%2Fpac-dan.github.io%2Fsurf-n-sail%2Fconfirmation.html%3Ffirst_name%3DDaniel%26last_name%3DJohnston%26email_address%3Ddjjohnston98%2540hotmail.com%26age%3D5%26health%3D%26lesson_date%3D2024-05-23%26lesson_time%3D10%253A30%26lesson%3Dgroup) 
+  - Relative file path -- (assets/validation-/confirmationpage-val.png)
 
 
-- CSS
+- **CSS**
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator)
-  - Relative file path for css validation screenshot -- (assets/validation-/css-validation.png)
 
+  - Relative file path for css validation screenshot -- (assets/validation-/css-validation.png)
+  - link to url css test -- (https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fpac-dan.github.io%2Fsurf-n-sail%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 ## Deployment
 
@@ -167,25 +174,44 @@ https://learn.codeinstitute.net/courses
 
 - I took inspiration from the love running website and then used to find useful html/css/javascript tags -- https://www.w3schools.com/
 - I also used a website created by the company i work for Kingdom Waves for some inspiration/content ideas -- https://kingdomwaves.com/
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+
 
 ### Media
 
 - I downloaded all photos from -- https://www.pexels.com/search/surf/ 
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/) 
 
-## Other General Project Advice
+## testing table
 
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work! 
+| action                                             |exp. behavior                           |pass / fail |
+|----------------------------------------------------|----------------------------------------|------------|
+|click logo                                          |load homepage                           |   pass     |
+|click locations                                     |load locations                          |   pass     |
+|click book now(top right nav link)                  |load book now page                      |   pass     |
+|click any book now button on home page              |go to booking page                      |   pass     |
+|click no booking needed button on home page         |go to home page                         |   pass     |
+|click banna in where to find us section             |load banna/locations                    |   pass     |
+|click inch in where to find us section              |load inch/locations                     |   pass     |
+|click castlegregory in where to find us section     |load castleg/locations                  |   pass     |
+|click brandonbay in where to find us section        |load brandonb/locations                 |   pass     |
+|click terms of service                              |load homepage                           |   pass     |
+|click privacy policy                                |load homepage                           |   pass     |
+|click any social media link in footer               |load corrosponding page                 |   pass     |
+|in mobile viewing click burger icon                 |open navlinks menu from right           |   pass     |
+|click any "get directions" button on locations page |google maps opens with correct location |   pass     |
+|form-booking section tested all fields for required |cannot submit form unless correct info  |   pass     |
+|confirmation page, click return to home page        |returns to home page                    |   pass     |
 
-- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write  a Git Commit Message 
-  - Make sure to keep the messages in the imperative mood 
 
-- When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
-  - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept. 
+**lighthouse testing**
+- **home**          - assets/images/home-desk.png
+                    - assets/images/home-mob.png
 
-- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
-  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
-  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
-  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
+- **locations**     - assets/images/locations-desk.png
+                    - assets/images/locations-mob.png
 
-Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process! 
+- **booking**       - assets/images/booking-desk.png
+                    - assets/images/booking-mob.png
+
+- **confirmation**  - assets/images/confirm-desk.png
+                    - assets/images/confirm-mob.png
