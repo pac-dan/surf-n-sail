@@ -486,17 +486,18 @@ main h1 {
 
 .image-box1 img,
 .image-box2 img {
-    width: 150%;
+    width: 95%;
     border-radius: 20px;
     box-shadow: -10px 10px 20px rgba(0, 0, 0, 0.3);
 
 }
 
 .image-box1 img {
-    transform: translateX(-35%);
+    transform: translateX(-25%);
 }
 
 .image-box2 img {
+    transform: translateX(25%);
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
 }
 
@@ -747,7 +748,7 @@ nav .fas {
 
 /* Media Queries */
 
-@media(max-width: 913px) {
+@media(max-width: 1000px) {
 
     /* increases surf spots images for smaller screens */
 
